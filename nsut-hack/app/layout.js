@@ -1,5 +1,3 @@
-
-
 import localFont from "next/font/local";
 import "./globals.css";
 import { AuthProvider } from "./components/context/AuthContext";
@@ -26,8 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-
-<AuthProvider>
+        <AuthProvider>
           {children} {/* ✅ Ensure all pages have access to AuthContext */}
         </AuthProvider>
       </body>

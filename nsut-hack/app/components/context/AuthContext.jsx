@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem("token");
     localStorage.removeItem("tokenExpiry");
     setToken(null);
-    router.push("/signin"); // Redirect to login page
+    router.push("/signUp"); // Redirect to login page
   };
 
   return (
