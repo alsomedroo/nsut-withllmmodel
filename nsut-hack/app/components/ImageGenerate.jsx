@@ -108,8 +108,8 @@ export default function Footer() {
               <div>
                 <h4 className="text-xl font-semibold text-white mb-4">Contact Us</h4>
                 <ul className="space-y-2">
-                  <li className="text-gray-400">aadijain363@gmail.com</li>
-                  <li className="text-gray-400">+91 9580689822</li>
+                  <li className="text-gray-400">dhruvattek@gmail.com</li>
+                  <li className="text-gray-400">+91 8868099768</li>
                   <li className="text-gray-400">Kiet Group of Institutions</li>
                   <li className="text-gray-400">Ghaziabad - 210206</li>
                 </ul>
