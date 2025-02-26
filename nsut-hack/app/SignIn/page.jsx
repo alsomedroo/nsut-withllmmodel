@@ -24,7 +24,7 @@ export default function SignIn() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/signin", formData);
+      const response = await axios.post("https://nsut-withllmmodel.onrender.com/api/signin", formData);
       if (response.data.token) {
         login(response.data.token);
         router.push("/");

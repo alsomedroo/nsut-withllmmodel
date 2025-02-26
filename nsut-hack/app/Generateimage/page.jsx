@@ -22,7 +22,7 @@ export default function Generate() {
     setLoading(true);
     setResponseData(null);
     try {
-      const res = await fetch("http://localhost:5000/api/generate-image", {
+      const res = await fetch("https://nsut-withllmmodel.onrender.com/api/generate-image", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt }),

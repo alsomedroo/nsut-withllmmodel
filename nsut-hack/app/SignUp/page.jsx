@@ -48,7 +48,7 @@ export default function SignUp() {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/signup", formData);
+      const response = await axios.post("https://nsut-withllmmodel.onrender.com/api/signup", formData);
       if (response.data.token) {
         login(response.data.token);
         router.push("/dashboard");
